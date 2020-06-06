@@ -1,0 +1,374 @@
+
+@font-face {
+    font-family: farwa-fav;
+    src: url("../Merriweather/Merriweather-Regular.ttf");
+}
+*{
+    font-family: farwa-fav;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.topbar{
+    background: #49688e;
+    color: white;
+    min-height: 35px;
+    
+}
+.topbar i{
+    color: #f4a024;
+}
+/* ////////////// Header css //////////////////// */
+.logo{
+    width: 150px;
+
+}
+
+.efsheading{
+    color:  #49688e;
+    text-align: left;
+    margin-top: 35px;
+    font-size: 50px;
+    font-weight: bold;
+    text-shadow:5px 5px 5px #f4a024 ;
+}
+
+/* //////////////////// Navbar csss ///////////////////// */
+
+
+
+.navbar-logo{
+    width:100px;
+    background:white;
+}
+
+.navbar{
+    background:#294a70;
+}
+.nav-item{
+    color: white;
+}
+
+.nav-item .nav-link:hover{
+    background-color: #f4a024;
+    color: white !important;
+
+}
+
+.separator{
+    height: 5px;
+    background: #f4a024;
+    display: block;
+}
+/* ///////////////// Intro css ////////////////// */
+.intro{
+    background-color: #f7f8fa;
+}
+.intro.text-center h2{
+    color:  #49688e ;
+    margin-top: 35px;
+    text-decoration: underline #f4a024;
+    font-weight: bold;
+}
+
+.intro p{
+    font-size: large;
+    margin-left: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+    margin-right: auto;
+    color: grey;
+    width: 100%;
+}
+
+
+
+/* ///////////////// Footer csss///////////////// */
+.footer{
+    background:#15305b;
+    color: white;
+    text-align: center;
+}
+
+
+.footer i {
+    color:  white;
+}
+.footer h6{
+    color: white !important;
+
+}
+.row .row3 li {
+    background-color:#f4a024;
+    border-radius: 180px;
+    height: 30px;
+    width: 30px;
+   
+  }
+
+
+/* /////////////////// Courses Page csss///////////////////////// */
+
+
+.courses-body{
+    background-color: #f7f8fa;
+    
+}
+
+  .card1 , .card2{
+      height: 500px;
+  }
+ 
+   .card-img-top{
+      height: 200px;
+      width: 350px;
+  }
+  .btn-primary{
+      width: 100%;
+      background:#15305b !important;
+  }
+  .card-text{
+      font-size:18px;
+      min-height: 100px;
+      color: gray;
+  }
+  .card-title{
+    color:  #49688e ;
+      min-height:60px ;
+      font-weight: bold;
+  }
+
+
+
+ /* ///////////////////// About page css////////////////// */
+ .main-info{
+     background-color: #f7f8fa;
+ }
+ .abt-heading{
+    color:  #49688e;
+    text-align: left;
+    font-size: 50px;
+    font-weight: bold;
+    text-shadow:5px 5px 5px #f4a024 ;
+    padding: 10px;
+ }
+ 
+ .main-info h3{
+    color:  #49688e ;
+    text-decoration: underline #f4a024;
+    font-weight: bold;
+  }
+.main-info p{
+    color: grey;
+    font-size: large;
+}
+
+
+
+ 
+  /* /////////////contact page css /////////////////////////////*/
+  
+  .contact-body{
+    background-color: #f7f8fa;
+  }
+  
+  .map{
+      width: 90%;
+
+  }
+ 
+ .form-heading{
+     color:  #49688e ;
+     font-weight: bold;
+ }
+
+table{
+
+    color:#15305b;
+    font-size: 15px;
+    font-weight: bold;
+    border-collapse: collapse;
+    border:#f4a024; 
+    border-style: solid;
+    width: 90% !important;
+    text-align: center;
+
+
+}
+.info h4,h6{
+    color: #49688e;
+   text-align: center;
+   font-weight: bold;
+}
+
+.info h6{
+    color: #49688e;
+   text-align: center;
+   font-weight: bold;
+}
+
+.info p{
+    text-align: center;
+    color: grey;
+    font-size: 20px;
+}
+
+/* DropDown css */
+
+.submenu{
+
+background: #49688e !important;
+display: none;
+width: max-content;
+position: absolute;
+text-align: left;
+    z-index:1;
+}
+
+.submenu li{
+    list-style: none;
+   
+}
+.submenu li a{
+    padding: 5px 10px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    display: block;
+    
+}
+
+.submenu li a:hover{
+    background-color: #f4a024;
+    color: white !important;
+    padding: 5px 10px;
+    
+}
+
+.nav-link:hover + .submenu ,.submenu:hover{
+    display: block;
+
+
+}
+.dropdown-divider{
+    margin: 0;
+}
+
+/* Slider css */
+
+.carousel-caption h5{
+    font-size: larger;
+    font-weight: bold;
+}
+
+
+/* Detail page css */
+.detail-text{
+    font-family: farwa-fav;
+    color: grey;
+}
+/* Thankyou page css */
+.ty-page.text-center{
+    background-color: #f7f8fa !important;
+}
+.ty-page h1{
+    color:#294a70 ;
+    text-decoration: Underline !important;
+font-size:large;
+font-weight: bold;
+
+
+}
+.ty-page h2{
+    color:#294a70 ;
+}
+.ty-page img{
+    width: 150px;
+}
+
+/* ////////////////REGISTERATION PAGE CSS///////////////// */
+.registration-body{
+    background-color: #f7f8fa;
+} 
+.form{
+    border-collapse: collapse;
+    border:#f4a024; 
+    border-style: solid;
+    width: 90% !important;
+ 
+}
+.col-md-3{
+    font-weight: bold;
+    font-size: 20px;
+    color: #294a70;
+    
+
+}
+.col-md-9{
+    color:#294a70 ;
+    text-align: left;
+    font-size: 20px;
+    display: block;
+
+}
+.main-form .form-control{
+    width: 100% !important;
+}
+.address{
+    width: 100% !important;
+}
+
+
+/* ///////////// Top Button css//////////// */
+
+
+
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 15px;
+    border:#f4a024;
+    outline: none;
+    background-color:#15305b;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+  }
+  
+  #myBtn:hover {
+    background-color:#f4a024 ;
+    border: #15305b;
+    opacity: 1;
+  }
+#myBtn img{
+color: white !important;
+    width: 35px;
+}
+
+
+
+
+/* ////////////// MEDIA QUERY////////////// */
+
+@media only screen and (max-width: 768px) {
+    .intro.text-center h2 {
+          font-size: 24px;
+      }
+.efsheading{
+    text-align: center;
+}
+.heading{
+    text-align: center;
+}
+.carousel-caption h5{
+    font-size: 15px;
+    font-weight: bold;
+}
+  }
+
